@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b2d1e62-442a-4cb2-a215-b0bb30f4c623</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonNote.py</StartupFile>
+    <StartupFile>HelloWorld.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="HelloWorld.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonNote.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
