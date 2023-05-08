@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b2d1e62-442a-4cb2-a215-b0bb30f4c623</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NearAlgorithm.py</StartupFile>
+    <StartupFile>SortAlgorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -52,6 +52,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonNote.py" />
+    <Compile Include="RankAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SumAlgorithm.py">
       <SubType>Code</SubType>
     </Compile>
