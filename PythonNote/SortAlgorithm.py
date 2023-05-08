@@ -14,6 +14,7 @@ def main():
 				temp = data[i]
 				data[i] = data[j]
 				data[j] = temp #swap
+		print(data)
 
 	#[3] output
 	for i in range(n):
