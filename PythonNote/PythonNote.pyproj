@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b2d1e62-442a-4cb2-a215-b0bb30f4c623</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SortAlgorithm.py</StartupFile>
+    <StartupFile>SearchAlgorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -53,6 +53,9 @@
     </Compile>
     <Compile Include="PythonNote.py" />
     <Compile Include="RankAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SearchAlgorithm.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SortAlgorithm.py">
