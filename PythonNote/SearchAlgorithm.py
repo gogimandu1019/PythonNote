@@ -16,14 +16,13 @@ def main():
 
 	while low <= high:
 		mid = int((low + high) / 2) #중간 인덱스 = 로우 하이 평균, 정수형으로 처리해야
-		
-		if data[mid] == search: #중간인덱스 = 찾는값 인 경우
-			flag = True; index=mid; break;
-		
+				
 		if data[mid] > search: 
 			high = mid - 1 #찾을 데이터가 작으면 하이 왼쪽으로 이동
-		else:
+		elif data[mid] < search:
 			low = mid + 1 #찾을 데이터가 크면 로우 오른쪽으로 이동
+		else:
+			flag = True; index=mid; break;
 
 	#[3]output
 	if flag:
