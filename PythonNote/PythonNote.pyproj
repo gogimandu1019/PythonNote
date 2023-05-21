@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b2d1e62-442a-4cb2-a215-b0bb30f4c623</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SearchAlgorithm.py</StartupFile>
+    <StartupFile>MergeAlgorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,6 +43,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MaxAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MergeAlgorithm.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MinAlgorithm.py">
