@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b2d1e62-442a-4cb2-a215-b0bb30f4c623</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ModeAlgorithm.py</StartupFile>
+    <StartupFile>GroupAlgorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CountAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GroupAlgorithm.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HelloWorld.py">
