@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b2d1e62-442a-4cb2-a215-b0bb30f4c623</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MergeAlgorithm.py</StartupFile>
+    <StartupFile>ModeAlgorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -49,6 +49,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MinAlgorithm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ModeAlgorithm.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="NearAlgorithm.py">
